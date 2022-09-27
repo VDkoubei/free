@@ -3,7 +3,7 @@ name: VDkoubei # 修改你的名称
 on:
   workflow_dispatch:
   schedule:
-    - cron: "29 21 * * 4" # 修改你的定时配置
+    - cron: "13 20 * * 4" # 修改你的定时配置
 
 jobs:
   setup:
