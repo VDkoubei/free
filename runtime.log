@@ -1,0 +1,58 @@
+2022-09-30 04:35:22.181 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:299 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
+2022-09-30 04:35:22.320 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:132 - Pulling AssetsObject from https://api.github.com/repos/qin2dim/hcaptcha-challenger/releases
+2022-09-30 04:35:22.547 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:299 - Downloading yolov6n.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/yolov6n.onnx
+2022-09-30 04:35:24.414 | INFO     | services.deploy:job_loop_claim:125 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-09-30 04:35:24.470 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1201 - >> LOAD [CookieManager] Load context cookie.
+2022-09-30 04:35:24.779 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1268 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-09-30 04:35:25.298 | INFO     | services.utils.toolbox:get_challenge_ctx:179 - Please use `xvfb` to empower the headful Chrome.
+2022-09-30 04:35:25.298 | INFO     | services.utils.toolbox:get_challenge_ctx:180 - CMD: xvfb-run python3 main.py claim
+2022-09-30 04:35:39.360 | DEBUG    | services.bricklayer.core:login:966 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-09-30 04:35:39.430 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:65 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-09-30 04:35:41.603 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「会议室」
+2022-09-30 04:35:42.398 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.24s
+2022-09-30 04:35:42.400 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:299 - Downloading conference_room.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/conference_room.onnx
+2022-09-30 04:35:44.137 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - conference_room(ResNet)_model: 0.5s
+2022-09-30 04:35:48.269 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-09-30 04:35:48.301 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「会议室」
+2022-09-30 04:35:49.093 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.23s
+2022-09-30 04:35:50.432 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - conference_room(ResNet)_model: 0.01s
+2022-09-30 04:35:57.713 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-09-30 04:35:58.310 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1201 - >> LOAD [CookieManager] Load context cookie.
+2022-09-30 04:35:59.330 | DEBUG    | services.deploy:promotions_splitter:303 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『The Drone Racing League Simulator』 url=https://store.epicgames.com/zh-CN/p/the-drone-racing-league-simulator
+2022-09-30 04:35:59.330 | DEBUG    | services.deploy:promotions_splitter:303 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Runbow』 url=https://store.epicgames.com/zh-CN/p/runbow-fc9fa4
+2022-09-30 04:35:59.330 | DEBUG    | services.bricklayer.game:cart_balancing:178 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-09-30 04:36:12.087 | SUCCESS  | services.bricklayer.core:purchase_status:584 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/6 10:00 - game=『The Drone Racing League Simulator』
+2022-09-30 04:36:12.235 | DEBUG    | services.bricklayer.core:_activate_payment:792 - [🔖] 资源订单加载完毕 - mode=add
+2022-09-30 04:36:24.773 | SUCCESS  | services.bricklayer.core:purchase_status:584 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/6 10:00 - game=『Runbow』
+2022-09-30 04:36:24.858 | DEBUG    | services.bricklayer.core:_activate_payment:792 - [🔖] 资源订单加载完毕 - mode=add
+2022-09-30 04:36:25.370 | DEBUG    | services.bricklayer.game:empty_shopping_payment:195 - [🛵] 重载身份令牌
+2022-09-30 04:36:28.753 | DEBUG    | services.bricklayer.game:empty_shopping_payment:204 - [🛵] 审查购物车状态
+2022-09-30 04:36:29.077 | DEBUG    | services.bricklayer.core:_activate_payment:792 - [🔖] 资源订单加载完毕 - mode=下单
+2022-09-30 04:36:32.246 | DEBUG    | services.bricklayer.game:empty_shopping_payment:221 - [🛵] 处理购物订单...
+2022-09-30 04:36:32.272 | DEBUG    | services.bricklayer.core:cart_handle_payment:1023 - [🌀] 切换至内联订单框架
+2022-09-30 04:36:32.273 | DEBUG    | services.bricklayer.core:cart_handle_payment:1029 - [⚔] 激活人机挑战...
+2022-09-30 04:36:51.849 | DEBUG    | services.bricklayer.core:cart_handle_payment:1040 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-09-30 04:36:51.930 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「被鲜」
+2022-09-30 04:36:52.588 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.09s
+2022-09-30 04:36:52.799 | WARNING  | hcaptcha_challenger.core:tactical_retreat:389 - >> Challenge [ArmorCaptcha] Types of challenges not yet scheduled - motive=ALERT action_name=ArmorCaptcha label=「被鲜」 prompt=「请点击每张包含被鲜花包围的企鹅的图片」 screenshot=datas/temp_cache/captcha_screenshot/1664483812.被鲜.png site_link=https://store.epicgames.com/zh-CN/cart issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=%E8%A2%AB%E9%B2%9C
+2022-09-30 04:36:53.317 | DEBUG    | services.bricklayer.core:cart_handle_payment:1044 - [🌀] 弹出内联订单框架...
+2022-09-30 04:36:54.900 | DEBUG    | services.bricklayer.game:empty_shopping_payment:195 - [🛵] 重载身份令牌
+2022-09-30 04:36:58.817 | DEBUG    | services.bricklayer.game:empty_shopping_payment:204 - [🛵] 审查购物车状态
+2022-09-30 04:36:59.190 | DEBUG    | services.bricklayer.core:_activate_payment:792 - [🔖] 资源订单加载完毕 - mode=下单
+2022-09-30 04:36:59.191 | DEBUG    | services.bricklayer.game:empty_shopping_payment:221 - [🛵] 处理购物订单...
+2022-09-30 04:37:00.612 | DEBUG    | services.bricklayer.core:cart_handle_payment:1023 - [🌀] 切换至内联订单框架
+2022-09-30 04:37:00.613 | DEBUG    | services.bricklayer.core:cart_handle_payment:1029 - [⚔] 激活人机挑战...
+2022-09-30 04:37:20.828 | DEBUG    | services.bricklayer.core:cart_handle_payment:1040 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-09-30 04:37:20.923 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「水下乌龟」
+2022-09-30 04:37:21.678 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.1s
+2022-09-30 04:37:21.681 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:299 - Downloading turtle_under_the_water.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/turtle_under_the_water.onnx
+2022-09-30 04:37:23.855 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - turtle_under_the_water(ResNet)_model: 0.31s
+2022-09-30 04:37:27.970 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-09-30 04:37:28.019 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「水下乌龟」
+2022-09-30 04:37:28.769 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.2s
+2022-09-30 04:37:30.078 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - turtle_under_the_water(ResNet)_model: 0.01s
+2022-09-30 04:37:35.323 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-09-30 04:37:35.559 | DEBUG    | services.bricklayer.core:cart_handle_payment:1044 - [🌀] 弹出内联订单框架...
+2022-09-30 04:37:44.273 | DEBUG    | services.bricklayer.game:empty_shopping_payment:195 - [🛵] 重载身份令牌
+2022-09-30 04:37:47.507 | DEBUG    | services.bricklayer.game:empty_shopping_payment:204 - [🛵] 审查购物车状态
+2022-09-30 04:37:52.624 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:207 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
