@@ -1,68 +1,47 @@
-2022-10-14 04:35:29.345 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
-2022-10-14 04:35:29.449 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:133 - Pulling AssetsObject from https://api.github.com/repos/qin2dim/hcaptcha-challenger/releases
-2022-10-14 04:35:29.644 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading yolov6n.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/yolov6n.onnx
-2022-10-14 04:35:33.485 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
-2022-10-14 04:35:33.553 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
-2022-10-14 04:35:33.870 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
-2022-10-14 04:35:35.700 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
-2022-10-14 04:35:35.700 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
-2022-10-14 04:36:12.031 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
-2022-10-14 04:36:12.105 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
-2022-10-14 04:36:14.280 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「企鹅」
-2022-10-14 04:36:14.928 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.1s
-2022-10-14 04:36:14.930 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading penguin.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/penguin.onnx
-2022-10-14 04:36:16.967 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin(ResNet)_model: 0.2s
-2022-10-14 04:36:21.040 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
-2022-10-14 04:36:21.070 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「企鹅」
-2022-10-14 04:36:21.736 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.11s
-2022-10-14 04:36:23.289 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin(ResNet)_model: 0.01s
-2022-10-14 04:36:30.339 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
-2022-10-14 04:36:30.798 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
-2022-10-14 04:36:31.489 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『ToeJam & Earl: Back in the Groove!』 url=https://store.epicgames.com/zh-CN/p/toejam-and-earl-back-in-the-groove-cddc16
-2022-10-14 04:36:31.490 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Darkwood』 url=https://store.epicgames.com/zh-CN/p/darkwood-fa73bd
-2022-10-14 04:36:31.490 | DEBUG    | services.bricklayer.game:cart_balancing:80 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
-2022-10-14 04:36:44.951 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/20 11:00 - game=『ToeJam & Earl: Back in the Groove!』
-2022-10-14 04:36:45.057 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
-2022-10-14 04:36:55.123 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/20 11:00 - game=『Darkwood』
-2022-10-14 04:36:55.225 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
-2022-10-14 04:36:55.739 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
-2022-10-14 04:36:59.630 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
-2022-10-14 04:36:59.847 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=下单
-2022-10-14 04:37:02.926 | DEBUG    | services.bricklayer.game:empty_shopping_payment:131 - [🛵] 处理购物订单...
-2022-10-14 04:37:02.958 | DEBUG    | services.bricklayer.core:cart_handle_payment:975 - [🌀] 切换至内联订单框架
-2022-10-14 04:37:02.959 | DEBUG    | services.bricklayer.core:cart_handle_payment:981 - [⚔] 激活人机挑战...
-2022-10-14 04:37:22.586 | DEBUG    | services.bricklayer.core:cart_handle_payment:992 - [⚔] 捕获隐藏在订单中的人机挑战...
-2022-10-14 04:37:22.678 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「一只飞翔的鸟」
-2022-10-14 04:37:23.355 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.12s
-2022-10-14 04:37:23.358 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading bird_flying.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/bird_flying.onnx
-2022-10-14 04:37:25.130 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - bird_flying(ResNet)_model: 0.2s
-2022-10-14 04:37:29.207 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
-2022-10-14 04:37:29.256 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「一只飞翔的鸟」
-2022-10-14 04:37:29.900 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.1s
-2022-10-14 04:37:31.705 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - bird_flying(ResNet)_model: 0.01s
-2022-10-14 04:37:33.758 | WARNING  | services.bricklayer.core:is_challenge_image_clickable:219 - 请再试一次
-2022-10-14 04:37:33.759 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
-2022-10-14 04:37:33.809 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「一只飞翔的鸟」
-2022-10-14 04:37:34.474 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.11s
-2022-10-14 04:37:35.866 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - bird_flying(ResNet)_model: 0.01s
-2022-10-14 04:37:39.930 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
-2022-10-14 04:37:40.513 | DEBUG    | services.bricklayer.core:cart_handle_payment:996 - [🌀] 弹出内联订单框架...
-2022-10-14 04:37:42.608 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
-2022-10-14 04:37:46.738 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
-2022-10-14 04:37:47.118 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=下单
-2022-10-14 04:37:47.118 | DEBUG    | services.bricklayer.game:empty_shopping_payment:131 - [🛵] 处理购物订单...
-2022-10-14 04:37:48.570 | DEBUG    | services.bricklayer.core:cart_handle_payment:975 - [🌀] 切换至内联订单框架
-2022-10-14 04:37:48.570 | DEBUG    | services.bricklayer.core:cart_handle_payment:981 - [⚔] 激活人机挑战...
-2022-10-14 04:38:08.735 | DEBUG    | services.bricklayer.core:cart_handle_payment:992 - [⚔] 捕获隐藏在订单中的人机挑战...
-2022-10-14 04:38:08.815 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「企鹅」
-2022-10-14 04:38:09.455 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.07s
-2022-10-14 04:38:10.934 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin(ResNet)_model: 0.01s
-2022-10-14 04:38:15.097 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
-2022-10-14 04:38:15.146 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「企鹅」
-2022-10-14 04:38:15.777 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.09s
-2022-10-14 04:38:17.557 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin(ResNet)_model: 0.01s
-2022-10-14 04:38:22.692 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
-2022-10-14 04:38:22.861 | DEBUG    | services.bricklayer.core:cart_handle_payment:996 - [🌀] 弹出内联订单框架...
-2022-10-14 04:38:29.111 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
-2022-10-14 04:38:32.837 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
-2022-10-14 04:38:37.935 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-10-28 04:31:30.829 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
+2022-10-28 04:31:30.873 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:133 - Pulling AssetsObject from https://api.github.com/repos/qin2dim/hcaptcha-challenger/releases
+2022-10-28 04:31:31.126 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading yolov6n.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/yolov6n.onnx
+2022-10-28 04:31:38.472 | INFO     | services.deploy:job_loop_claim:108 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-10-28 04:31:40.408 | INFO     | services.bricklayer.core:refresh_ctx_cookies:672 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-10-28 04:31:40.461 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-28 04:31:50.000 | INFO     | services.bricklayer.core:login:513 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-28 04:31:50.000 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-28 04:31:52.404 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「盆中仙人掌」
+2022-10-28 04:31:53.564 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.8s
+2022-10-28 04:31:53.569 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading cactus_in_a_pot.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/cactus_in_a_pot.onnx
+2022-10-28 04:31:56.107 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - cactus_in_a_pot(ResNet)_model: 0.72s
+2022-10-28 04:31:56.121 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-28 04:31:56.144 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「盆中仙人掌」
+2022-10-28 04:31:57.133 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.6s
+2022-10-28 04:31:58.835 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - cactus_in_a_pot(ResNet)_model: 0.02s
+2022-10-28 04:32:04.348 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-28 04:32:04.348 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-28 04:32:07.225 | INFO     | services.bricklayer.core:login:493 - >> MATCH [CookieManager] 持久化信息未过期
+2022-10-28 04:32:14.038 | INFO     | services.bricklayer.core:load_ctx_cookies:640 - >> LOAD [CookieManager] Load context cookie
+2022-10-28 04:32:14.038 | INFO     | services.explorer.explorer:get_oder_history:201 - 初始化订单数据
+2022-10-28 04:32:17.794 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [GameClaimer] 🎮 已在库 - game=『Shadow of the Tomb Raider：最终版』 url=https://store.epicgames.com/zh-CN/p/shadow-of-the-tomb-raider
+2022-10-28 04:32:17.794 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [GameClaimer] 🎮 已在库 - game=『Terraforming Mars』 url=https://store.epicgames.com/zh-CN/p/terraforming-mars-18c3ad
+2022-10-28 04:32:17.794 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [GameClaimer] 🎮 已在库 - game=『A Game Of Thrones: The Board Game Digital Edition』 url=https://store.epicgames.com/zh-CN/p/a-game-of-thrones-5858a3
+2022-10-28 04:32:17.795 | DEBUG    | services.deploy:promotions_splitter:263 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Warhammer 40,000: Mechanicus - Standard Edition』 url=https://store.epicgames.com/zh-CN/p/warhammer-mechanicus-0e4b71
+2022-10-28 04:32:17.795 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [GameClaimer] 🎮 已在库 - game=『Fallout 3年度最佳游戏版』 url=https://store.epicgames.com/zh-CN/p/fallout-3-game-of-the-year-edition
+2022-10-28 04:32:17.795 | DEBUG    | services.deploy:promotions_splitter:263 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Saturnalia』 url=https://store.epicgames.com/zh-CN/p/saturnalia
+2022-10-28 04:32:18.678 | DEBUG    | services.bricklayer.game:cart_balancing:68 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-10-28 04:32:23.602 | SUCCESS  | services.bricklayer.core:purchase_status:362 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 10:00 - game=『Warhammer 40,000: Mechanicus - Standard Edition』
+2022-10-28 04:32:23.679 | INFO     | services.bricklayer.core:_activate_payment:459 - [🔖] 已添加商品至购物车
+2022-10-28 04:32:27.855 | SUCCESS  | services.bricklayer.core:purchase_status:362 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 10:00 - game=『Saturnalia』
+2022-10-28 04:32:27.957 | INFO     | services.bricklayer.core:_activate_payment:459 - [🔖] 已添加商品至购物车
+2022-10-28 04:32:29.704 | DEBUG    | services.bricklayer.core:cart_is_empty:517 - [🛵] 审查购物车状态
+2022-10-28 04:32:30.773 | INFO     | services.bricklayer.core:_activate_payment:463 - [🔖] 已激活购物车零元购订单
+2022-10-28 04:32:30.778 | DEBUG    | services.bricklayer.core:cart_handle_payment:543 - [🛵] 处理购物订单...
+2022-10-28 04:32:38.286 | DEBUG    | services.bricklayer.core:cart_handle_payment:547 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-10-28 04:32:38.317 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「盆中仙人掌」
+2022-10-28 04:32:39.492 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.68s
+2022-10-28 04:32:41.404 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - cactus_in_a_pot(ResNet)_model: 0.01s
+2022-10-28 04:32:41.420 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-28 04:32:41.440 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「盆中仙人掌」
+2022-10-28 04:32:42.553 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.71s
+2022-10-28 04:32:44.086 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - cactus_in_a_pot(ResNet)_model: 0.01s
+2022-10-28 04:32:48.601 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-28 04:32:48.763 | DEBUG    | services.bricklayer.core:cart_handle_payment:549 - [🌀] 弹出内联订单框架...
+2022-10-28 04:32:49.996 | DEBUG    | services.bricklayer.core:cart_is_empty:517 - [🛵] 审查购物车状态
+2022-10-28 04:32:50.351 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:80 - ADVANCE [GameClaimer] ✔ 购物车已清空
